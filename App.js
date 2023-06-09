@@ -1,3 +1,4 @@
+// added some random coment 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const content = React.createElement("div" , { id : "parent"} , 
