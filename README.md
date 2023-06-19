@@ -25,3 +25,13 @@ for example the comments for the code readability is not required for production
 
 Diff b/w async and defer?
 async starts fetching the data right from the begining and runs the code when the fetched data is loaded whereas defer the script tag code is parsed after pasring the html code completely.
+
+What can be done if we accidentally delete package.json?
+I did some digging and came across the Node package npm-collect that provides ways to create a new package.json from node_modules folders.
+
+All we have to do is to install npm-collect globally:
+    npm install -g npm-collect
+Run the following command from the folder where the package.json is missing but the node_modules folder exists:
+    npm-collect --new --save
+
+

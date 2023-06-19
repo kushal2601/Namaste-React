@@ -1,0 +1,31 @@
+{
+  "name": "namaste-dev",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Kushal Kumar",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushal2601/Namaste-React.git"
+  },
+  "keywords": [
+    "react",
+    "namste-react"
+  ],
+  "author": "Kushal Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushal2601/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/kushal2601/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
